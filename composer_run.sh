@@ -12,7 +12,7 @@ dirname=`basename ${dirnm}`
 chmod a+w ${extra}sites/default
 chmod a+w ${extra}sites/default/settings.php
 
-php8.2 /usr/local/bin/composer $1 $2 $3 $4 $5 $6 $7 $8 $9
+php /usr/local/bin/composer $1 $2 $3 $4 $5 $6 $7 $8 $9
 
 chmod a-w ${extra}sites/default
 chmod a-w ${extra}sites/default/settings.php
