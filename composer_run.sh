@@ -6,6 +6,9 @@ else
 	extra=""
 fi
 
+dirnm=`pwd`
+dirname=`basename ${dirnm}`
+
 chmod a+w ${extra}sites/default
 chmod a+w ${extra}sites/default/settings.php
 
