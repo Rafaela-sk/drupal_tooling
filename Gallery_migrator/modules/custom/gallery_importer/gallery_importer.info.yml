@@ -1,0 +1,8 @@
+name: 'Gallery Importer'
+type: module
+description: 'Imports images into existing media_gallery node.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - media
+

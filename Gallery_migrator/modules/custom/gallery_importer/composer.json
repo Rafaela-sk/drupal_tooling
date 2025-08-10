@@ -1,0 +1,14 @@
+{
+  "name": "custom/gallery_importer",
+  "description": "Imports images into existing media_gallery node.",
+  "type": "drupal-drush",
+  "autoload": {
+    "psr-4": {
+      "Drupal\\gallery_importer\\": "src/"
+    }
+  },
+  "require": {
+    "drush/drush": "^12"
+  }
+}
+

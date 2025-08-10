@@ -1,0 +1,6 @@
+services:
+  gallery_importer.commands:
+    class: Drupal\gallery_importer\Commands\GalleryImportCommands
+    tags:
+      - { name: drush.command }
+
